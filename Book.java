@@ -3,8 +3,8 @@ public class Book {
     private String name;
     private int code;
     private int published;
-    // Constructors
 
+    // Constructors
     public Book(String name, int code, int published) {
         this.name = name;
         this.code = code;
@@ -16,8 +16,8 @@ public class Book {
         this.code = -1;
         this.published = -1;
     }
-    // Getters and setters
 
+    // Getters and setters
     public String getName() {
         return name;
     }
